@@ -1,1 +1,1 @@
-(Project link)[https://atakishialiyev.github.io/edie/] 
+[Project link](https://atakishialiyev.github.io/edie/)
