@@ -179,7 +179,7 @@ header {
 
 .card-wrapper {
     display: flex;
-    width: 80vw;
+    width: 80%;
     margin: auto;
     justify-content: space-between;
 }
