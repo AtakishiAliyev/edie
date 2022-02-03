@@ -1,1 +1,1 @@
-[Project link](https://atakishialiyev.github.io/edie/)
+[Project online link](https://atakishialiyev.github.io/edie/)

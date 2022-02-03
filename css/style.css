@@ -236,3 +236,65 @@ header {
     line-height: 24px;
     margin: 25px 0;
 }
+
+.clients {
+    padding: 50px 50px;
+}
+
+.clients h2 {
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 500px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.boxes .box:nth-child(2n + 1) {
+    margin-top: 120px;
+} 
+
+.boxes .box .image {
+    width: 500px;
+    height: 500px;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxes .box:nth-child(1) .image {
+    background-image: url('../images/smarthome.jpg');
+}
+
+.boxes .box:nth-child(2) .image {
+    background-image: url('../images/onboard.png');
+}
+
+.boxes .box:nth-child(3) .image {
+    background-image: url('../images/booking.png');
+}
+
+.boxes .box:nth-child(4) .image {
+    background-image: url('../images/juice-product.png');
+}
+
+.boxes .box span {
+    color: #828282;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+.boxes .box p {
+    font-size: 22px;
+    line-height: 32px;
+    color: #000;
+}
