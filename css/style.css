@@ -423,3 +423,236 @@ footer {
     line-height: 21px;
     margin-bottom: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .services {
+        padding: 50px 10px;
+    }
+
+    .services .head {
+        padding-left: 40px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .services .head span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .services .head h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .services img {
+        margin: 15px 0;
+        min-height: 200px;
+    }
+
+    .services .subscraption {
+        padding-left: 40px;
+        max-width: 100%;
+        padding-right: 25px;
+    }
+
+    .services .subscraption h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .services .subscraption p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 25px 0;
+    }
+
+    .our-works {
+        padding: 50px 50px;
+    }
+
+    .our-works h2 {
+        font-size: 24px;
+        line-height: 36px;
+        max-width: 100%;
+        padding-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .card-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-wrapper .card {
+        max-width: 100%;
+        padding: 25px 0px;
+    }
+
+    .card-wrapper .card:hover {
+        padding: 25px;
+    }
+
+    .clients {
+        padding: 50px 50px;
+    }
+
+    .clients h2 {
+        font-size: 24px;
+        line-height: 36px;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .clients .boxes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .clients .boxes .box {
+        width: 100%;
+    }
+
+    .clients .boxes > .box + .box {
+        margin-top: 25px;
+    }
+
+    .clients .boxes .box .image {
+        height: 300px;
+    }
+
+    .clients .boxes .box:nth-child(2n + 1) {
+        margin-top: auto;
+    }
+
+    .team {
+        padding: 50px 50px;
+    }
+
+    .team .content {
+        flex-direction: column;
+    }
+
+    .team .content .text {
+        width: 100%;
+    }
+
+    .content .images {
+        width: 100%;
+        min-height: 320px;
+        margin-top: 25px;
+    }
+
+    .content .images img {
+        width: 45%;
+        height: 45%;
+        object-fit: cover;
+    }
+
+    .content .images img:nth-child(1) {
+        left: 0;
+    }
+
+    footer {
+        padding: 50px 50px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin: 80px 0;
+    }
+
+    .footer-content .subscraption {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .services .head {
+        padding-left: 0;
+    }
+
+    .services .subscraption {
+        padding-left: 0;
+    }
+
+    .our-works h2 {
+        max-width: 100%;
+        padding-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .card-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-wrapper .card {
+        max-width: 100%;
+        padding: 25px 0px;
+    }
+
+    .card-wrapper .card:hover {
+        padding: 25px;
+    }
+
+    .team .content {
+        flex-direction: column;
+    }
+
+    .team .content .text {
+        width: 100%;
+    }
+
+    .content .images {
+        width: 100%;
+        min-height: 320px;
+        margin-top: 25px;
+    }
+
+    .content .images img {
+        width: 45%;
+        height: 45%;
+        object-fit: cover;
+    }
+
+    .clients h2 {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .clients .boxes {
+        width: 100%;
+    }
+
+    .team {
+        padding: 50px 50px;
+    }
+
+    .content .images img:nth-child(1) {
+        left: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin: 80px 0;
+    }
+
+    .footer-content .subscraption {
+        width: 100%;
+    }
+}
